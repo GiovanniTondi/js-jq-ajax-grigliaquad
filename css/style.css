@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    background-color: #3C6E71;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 600px;
+    width: 600px;
+    background-color: #B8C4BB;
+}
+
+.cella {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 100px;
+    width: calc(100% / 6);
+    border: solid 1px #000;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.cella.yellow {
+    background-color: #e8f224;
+    cursor: default;
+}
+
+.cella.green {
+    background-color: #008b16;
+    color: #fff;
+    cursor: default;
+}
